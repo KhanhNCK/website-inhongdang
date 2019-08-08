@@ -59,19 +59,7 @@ $("#hover-show").hover(function () {
 $(".list-service").mouseleave(function () {
     $('.list-service').hide("slow");
 });
-//click thu ngo
-// $(document).ready(function () {
-    
-//     "use strict";
-//     $('.fancybox').fancybox({
-//         padding: 0,
-//         helpers: {
-//             overlay: {
-//                 locked: false
-//             }
-//         }
-//     });
-// });
+
 
 $('.owl-carousel').owlCarousel({
     loop:false,
@@ -92,12 +80,12 @@ $('.owl-carousel').owlCarousel({
 
 // info
 $(window).scroll(function () {
-    if ($(document).scrollTop() > 50) {
-        if (parseInt($("#IntroMenu").css("right")) < 0)
+    if ($(document).scrollTop() > 100) {
+        if (parseInt($("#IntroMenu").css("right")) > 0)
             $("#IntroMenu").animate({ "right": "35px" });
     } else {
-        if (parseInt($("#IntroMenu").css("right")) > 0)
-            $("#IntroMenu").animate({ "right": "-35px" });
+        if (parseInt($("#IntroMenu").css("right")) < 50)
+            $("#IntroMenu").animate({ "right": "-1005px" });
     }
 });
 
