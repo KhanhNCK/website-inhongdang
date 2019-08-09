@@ -80,14 +80,15 @@ $('.owl-carousel').owlCarousel({
 
 // info
 $(window).scroll(function () {
-    if ($(document).scrollTop() > 100) {
-        if (parseInt($("#IntroMenu").css("right")) > 0)
-            $("#IntroMenu").animate({ "right": "35px" });
-    } else {
-        if (parseInt($("#IntroMenu").css("right")) < 50)
-            $("#IntroMenu").animate({ "right": "-1005px" });
-    }
+  if ($(document).scrollTop() > 150) {
+      if (parseInt($("#IntroMenu").css("right")) < 0)
+          $("#IntroMenu").animate({ "right": "25px" });
+  } else {
+      if (parseInt($("#IntroMenu").css("right")) > 0)
+          $("#IntroMenu").animate({ "right": "-100px" });
+  }
 });
+$('#IntroMenu a').smoothScroll();
 
 //back to top
 
