@@ -1,7 +1,5 @@
 * {
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-  line-height: 1.7;
-  font-weight: 400; }
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"; }
 
 .zoom-img {
   position: relative;
@@ -101,13 +99,17 @@
         font-weight: 600;
         font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
         .main-product .customers .background .info .phone-customers .phone-icon {
-          color: #ce2851;
           padding-right: 10px; }
+          .main-product .customers .background .info .phone-customers .phone-icon i {
+            color: #ce2851;
+            font-size: 13px; }
       .main-product .customers .background .info .skype-customers {
         font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
         .main-product .customers .background .info .skype-customers .skype-icon {
           color: #0AA4AB;
           padding-right: 10px; }
+          .main-product .customers .background .info .skype-customers .skype-icon i {
+            color: aqua; }
       .main-product .customers .background .info .email-customers {
         display: inline-block;
         color: #444;
@@ -116,8 +118,10 @@
         margin: 0;
         font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
         .main-product .customers .background .info .email-customers .email-icon {
-          color: #ce2851;
-          padding-right: 10px; }
+          padding-right: 5px; }
+          .main-product .customers .background .info .email-customers .email-icon i {
+            color: #ce2851;
+            font-size: 13px; }
 .main-product .title-team-support-last h3 {
   height: 50px;
   line-height: 60px;

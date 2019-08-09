@@ -2,8 +2,6 @@ $font-stack: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 
 *{
 	font-family: $font-stack;
-    line-height: 1.7;
-    font-weight: 400;
 	
 }
 //zoom-img
@@ -145,8 +143,12 @@ $font-stack: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 					font-weight: 600;
 					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 					.phone-icon{
-						 color: #ce2851;
+						 
     					padding-right: 10px;
+						i{
+							color: #ce2851;
+							    font-size: 13px;
+						}
 					}
 				}
 				.skype-customers{
@@ -154,6 +156,10 @@ $font-stack: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 					.skype-icon{
 						 color: #0AA4AB;
 						padding-right: 10px;
+						i{
+							color: aqua;
+							  ;
+						}
 					}
 				}
 				.email-customers{
@@ -164,8 +170,12 @@ $font-stack: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roma
 					margin: 0;
 					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 					.email-icon{
+						
+    					padding-right: 5px;
+						i{
 						color: #ce2851;
-    					padding-right: 10px;
+							    font-size: 13px;
+						}
 					}
 				}
 				

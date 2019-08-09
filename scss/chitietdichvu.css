@@ -12,8 +12,7 @@ img {
 .white {
   display: inline-block;
   width: 100%;
-  margin: 0;
-  background-color: #fff; }
+  margin: 0; }
 
 #crumbs ul {
   display: inline-table;
@@ -27,15 +26,15 @@ img {
     color: #fff;
     display: block;
     float: left;
-    font-size: 16px;
-    margin: 0 5px 0 0;
-    padding: 6px 3px 8px 15px;
+    font-size: 14px;
     position: relative;
     text-decoration: none;
-    height: 45px; }
+    height: 35px;
+    padding-top: 5px; }
     #crumbs ul li a {
       text-decoration: none; }
       #crumbs ul li a span {
+        padding-left: 1px;
         color: #fff; }
       #crumbs ul li a i {
         padding-right: 5px;
@@ -138,5 +137,54 @@ img {
           font-size: 12px;
           padding: 3px 0;
           vertical-align: top; }
+
+.menu-doc .collapsible {
+  background-color: #e6e7e7;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; }
+  .menu-doc .collapsible i {
+    padding-right: 5px; }
+.menu-doc .active, .menu-doc .collapsible:hover {
+  background-color: #0aa4ab; }
+.menu-doc .content {
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1; }
+  .menu-doc .content a {
+    padding: 20px;
+    color: black; }
+  .menu-doc .content a:hover {
+    color: #0aa4ab; }
+  .menu-doc .content .minicontent {
+    padding: 15px; }
+
+.box-1 {
+  text-align: center; }
+  .box-1 .content-right {
+    height: 50px;
+    padding-top: 5px; }
+    .box-1 .content-right a {
+      padding-left: -15px;
+      color: white;
+      font-weight: 600; }
+  .box-1 .content-right:hover {
+    transform: scale(1.1);
+    transition: all 1s; }
+  .box-1 .content-right:nth-child(1) {
+    background-color: red; }
+  .box-1 .content-right:nth-child(2) {
+    background-color: pink; }
+  .box-1 .content-right:nth-child(3) {
+    background-color: purple; }
+  .box-1 .content-right:nth-child(4) {
+    background-color: blue; }
+  .box-1 .content-right:nth-child(5) {
+    background-color: aqua; }
 
 /*# sourceMappingURL=chitietdichvu.css.map */

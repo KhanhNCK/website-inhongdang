@@ -1,7 +1,5 @@
 * {
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-  line-height: 1.7;
-  font-weight: 400; }
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
 
 .zoom-img {
   position: relative;
@@ -87,9 +85,10 @@
           margin-left: 10px; }
           .main-product-detail .main-detail-produdcts .main-news .content-news .icon-content span {
             padding-right: 10px;
-            color: #0aa4ab; }
+            color: #0aa4ab;
+            font-size: 13px; }
             .main-product-detail .main-detail-produdcts .main-news .content-news .icon-content span i {
-              margin-right: 10px; }
+              margin-right: 5px; }
         .main-product-detail .main-detail-produdcts .main-news .content-news .blog {
           margin: 10px; }
           .main-product-detail .main-detail-produdcts .main-news .content-news .blog .text-content {
